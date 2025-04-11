@@ -1,0 +1,35 @@
+[
+    {
+      "train_id": "bacs",
+      "train_no": 12345,
+      "train_name": "Bangalore Express",
+      "seats": [
+        [0,0,0,0,0,0],
+        [0,0,0,0,0,0],
+        [0,0,0,0,0,0],
+        [0,0,0,0,0,0]
+      ],
+      "stations": {
+        "Bangalore": "13:50:00",
+        "Jaipur": "13:50:00",
+        "Delhi": "13:50:00"
+      }
+    },
+    {
+      "train_id": "mdex",
+      "train_no": 12346,
+      "train_name": "Mumbai Express",
+      "seats": [
+        [0,0,0,0,0,0],
+        [0,0,0,0,0,0],
+        [0,0,0,0,0,0],
+        [0,0,0,0,0,0]
+      ],
+      "stations": {
+        "Mumbai": "08:30:00",
+        "Ahmedabad": "12:45:00",
+        "Jaipur": "16:20:00",
+        "Delhi": "20:00:00"
+      }
+    }
+]
