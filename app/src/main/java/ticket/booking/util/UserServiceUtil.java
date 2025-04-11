@@ -7,7 +7,7 @@ public class UserServiceUtil {
         return BCrypt.hashpw(plainPassword, BCrypt.gensalt());
     }
     //salting means it is changing the passwrod accordingly
-
+    //checking this file
     public static boolean checkPassword(String plainPassword, String hashedPassword) {
         return BCrypt.checkpw(plainPassword, hashedPassword);
     }
